@@ -43,10 +43,9 @@ jobs:
 
       - name: Register New ECS Task Definition
         id: task-def
+        env:
+          TASK_FAMILY: ${{ secrets.TASK_FAMILY }}  # Set this in GitHub Secrets
         run: |
-          TASK_FAMILY="my-ecs-task"
-          CONTAINER_NAME="my-container"
-
           # Fetch the latest task definition JSON
           aws ecs describe-task-definition --task-definition $TASK_FAMILY --query taskDefinition > task-def.json
           
@@ -61,9 +60,12 @@ jobs:
           echo "NEW_TASK_DEF_ARN=$NEW_TASK_DEF_ARN" >> $GITHUB_ENV
 
       - name: Deploy Updated Task Definition to ECS
+        env:
+          ECS_CLUSTER_NAME: ${{ secrets.ECS_CLUSTER_NAME }}  # Set this in GitHub Secrets
+          ECS_SERVICE_NAME: ${{ secrets.ECS_SERVICE_NAME }}  # Set this in GitHub Secrets
         run: |
           aws ecs update-service \
-            --cluster my-ecs-cluster \
-            --service my-ecs-service \
+            --cluster $ECS_CLUSTER_NAME \
+            --service $ECS_SERVICE_NAME \
             --task-definition $NEW_TASK_DEF_ARN \
             --force-new-deployment
