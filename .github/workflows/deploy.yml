@@ -14,6 +14,14 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
+      - name: Verify Dockerfile exists
+        run: |
+          if [ ! -f Dockerfile ]; then
+            echo "Dockerfile missing! Exiting..."
+            exit 1
+          fi
+        shell: bash
+
       - name: Set up AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
@@ -24,16 +32,21 @@ jobs:
       - name: Login to Amazon ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
+        with:
+          mask-password: true
 
       - name: Build Docker Image
         run: |
-          docker build -t ${{ secrets.ECR_REPOSITORY }}:latest .
+          docker build -t my-node-app:latest .
 
       - name: Tag and Push Image to ECR
         run: |
-          docker tag ${{ secrets.ECR_REPOSITORY }}:latest ${{ secrets.ECR_URI }}:latest
+          docker tag my-node-app:latest ${{ secrets.ECR_URI }}:latest
           docker push ${{ secrets.ECR_URI }}:latest
 
       - name: Update ECS Service
         run: |
-          aws ecs update-service --cluster my-ecs-cluster --service my-ecs-service --force-new-deployment
+          aws ecs update-service \
+            --cluster my-ecs-cluster \
+            --service my-ecs-service \
+            --force-new-deployment
