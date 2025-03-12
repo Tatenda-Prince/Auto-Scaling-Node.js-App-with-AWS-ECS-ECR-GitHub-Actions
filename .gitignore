@@ -1,0 +1,41 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# AWS credentials (DO NOT COMMIT!)
+*.pem
+*.key
+.aws/
+
+# Logs & temp files
+*.log
+*.out
+*.err
+*.tfvars
+
+# Node.js application (if applicable)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Python virtual environment (if applicable)
+venv/
+__pycache__/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+.env
+.env.*
+
+# Ignore VS Code & JetBrains IDE settings
+.vscode/
+.idea/
+
+# Ignore build artifacts
+dist/
+build/
+
