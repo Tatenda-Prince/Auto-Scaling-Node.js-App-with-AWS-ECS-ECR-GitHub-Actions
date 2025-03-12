@@ -3,7 +3,7 @@ const app = express();
 
 // Define a simple route
 app.get("/", (req, res) => {
-    res.send("Welcome To Up The Chels Tech E-commerce App is running in Docker on AWS ECS with Terraform and Github Actions CI/CD");
+    res.send("Welcome To Up The Chels Tech Node.js App is running in Docker on AWS ECS with Terraform and Github Actions CI/CD");
 });
 
 // Listen on port 3000
