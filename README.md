@@ -117,7 +117,7 @@ terraform init
 
 Upon completion of the initialization process, a successful prompt will be displayed, as shown 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/b0bce6f0b65f6542218afa46b4c79ebdbf712d7d/img/Screenshot%202025-03-13%20121756.png)
 
 
 2.3.Next, let’s ensure that our code does not contain any syntax errors by running the following command
