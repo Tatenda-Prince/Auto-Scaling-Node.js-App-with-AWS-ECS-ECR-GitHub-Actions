@@ -128,7 +128,7 @@ terraform validate
 
 The command should generate a success message, confirming that it is valid, as demonstrated below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/eae155bbb76da4f3ef42d198fd7707b0e3456578/img/Screenshot%202025-03-13%20121908.png)
 
 
 2.4.Let’s now execute the following command to generate a list of all the modifications that Terraform will apply.
