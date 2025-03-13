@@ -269,6 +269,67 @@ jobs:
 ```
 
 ## Step 5: Testing the CI/CD Pipeline
+5.1.Push a Code Change to Trigger Deployment on your app homepage.
+
+```language
+
+git add .
+
+git commit -m "Updated Node.js app Homepage"
+
+git push origin master
+```
+![image_alt]()
+
+
+5.2.Monitor GitHub Actions Workflow:
+
+1.Go to GitHub → Actions and check the pipeline logs.
+
+![image_alt]()
+
+
+![image_alt]()
+
+
+5.3.Verify in AWS ECS Console:
+
+1.Check ECS Task Definition to see the new revision.
+
+
+2.Verify ECS Service is running the new task.
+
+![image_alt]()
+
+
+3.Also verify if the website homepage was updated successfully.
+
+![image_alt]()
+
+
+## Future Enhancements
+
+1.Implement Blue-Green Deployment for seamless updates.
+
+2.Enhance Security with AWS WAF and fine-tuned IAM roles.
+
+3.Add CloudFront for better global performance.
+
+
+## Congratulations
+We have succesfully created a Cloud automation with Terraform & AWS,
+CI/CD best practices using GitHub Actions and Auto-scaling containerized application.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
