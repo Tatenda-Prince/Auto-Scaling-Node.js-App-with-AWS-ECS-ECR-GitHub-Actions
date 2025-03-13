@@ -91,7 +91,7 @@ docker tag my-node-app:latest <ECR_URI>:latest
 docker push <ECR_URI>:latest
 ```
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/4bf66b56dc66376574c8c495852b6d56d30ab303/img/Screenshot%202025-03-13%20192429.png)
 
 
 ## Step 2 : Run Terraform workflow to initialize, validate, plan then apply
