@@ -180,6 +180,12 @@ Great! We’ve successfully confirmed that our ECS has 2 task running instances,
 ![image_alt]()
 
 
+3.4.Verify the Auto Scaling group ifit was successfully created.
+
+![image_alt]()
+
+
+
 ## Step 4: lets Set up CI/CD Workflow (GitHub Actions)
 4.1.Every time you push changes to the `master` branch:
 
