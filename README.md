@@ -323,7 +323,7 @@ git push origin master
 ![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/f6d55afd472a28aa8ff22007749c2b59799ee13c/img/Screenshot%202025-03-13%20131801.png)
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/2f2324e9b71622c41cde7c0c73d86991cc05ac98/img/Screenshot%202025-03-13%20131841.png)
 
 
 5.3.Verify in AWS ECS Console:
