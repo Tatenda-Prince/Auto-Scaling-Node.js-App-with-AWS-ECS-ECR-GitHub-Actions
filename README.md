@@ -169,7 +169,7 @@ Please copy and save the ALB’s DNS URL, which will be required to access the w
 
 3.2.In the AWS Management Console, head to the EC2 dashboard and verify that the ECS load Balancer was successfull created.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/20676d9665083adffa36bc0d546b3f1fbcff94eb/img/Screenshot%202025-03-13%20124530.png)
 
 
 Also, navigate to the left pane, scroll down and select Target groups. Select the created Target group, scroll down, then verify that the instances Health status is healthy, as shown below.
