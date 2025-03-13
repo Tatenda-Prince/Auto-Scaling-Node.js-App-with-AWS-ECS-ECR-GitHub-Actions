@@ -164,7 +164,7 @@ Please copy and save the ALB’s DNS URL, which will be required to access the w
 ## Step 3: Verify creation of our resources
 3.1.In the AWS Management Console, head to the ECS Console and verify that there are two Tasks running as show below
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/f03fd97d329e1edd418ec255d1b4bb2b578ef376/img/Screenshot%202025-03-13%20124437.png)
 
 
 3.2.In the AWS Management Console, head to the EC2 dashboard and verify that the ECS load Balancer was successfull created.
