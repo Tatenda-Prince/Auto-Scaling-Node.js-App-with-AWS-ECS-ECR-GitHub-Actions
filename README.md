@@ -180,7 +180,7 @@ Great! We’ve successfully confirmed that our ECS has 2 task running instances,
 ![image_alt]()
 
 
-3.4.Verify the Auto Scaling group ifit was successfully created.
+3.4.Verify the Auto Scaling group if it was successfully created.
 
 ![image_alt]()
 
