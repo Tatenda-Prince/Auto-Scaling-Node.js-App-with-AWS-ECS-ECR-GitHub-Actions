@@ -73,8 +73,9 @@ AWS CLI configured (aws configure).
 1.1.Clone this repository to your local machine.
 ```language
 git clone https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions.git
+
 ```
-1.2.Deploy The Application
+## Deploy The Application
 
 Before Terraform provisons AWS resources we need to push your application Docker image to ECR:
 
@@ -83,7 +84,7 @@ aws ecr create-repository --repository-name your-repository-name
 
 aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <your account id>.dkr.ecr.us-east-1.amazonaws.com
 
-docker build -t my-ecommerce-app .
+docker build -t my-node-app .
 
 docker tag my-node-app:latest <ECR_URI>:latest
 
