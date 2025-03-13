@@ -317,8 +317,7 @@ git push origin master
 
 
 ## Congratulations
-We have succesfully created a Cloud automation with Terraform & AWS,
-CI/CD best practices using GitHub Actions and Auto-scaling containerized application.
+We have succesfully created a Scalable & Automated Node.js App Deployment Cloud automation with Terraform & AWS,CI/CD best practices using GitHub Actions and Auto-scaling containerized application.
 
 
 
