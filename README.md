@@ -313,7 +313,7 @@ git commit -m "Updated Node.js app Homepage"
 
 git push origin master
 ```
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/396c7b5245558bfe977b1a47bd99adb2a2d43bab/img/Screenshot%202025-03-13%20131556.png)
 
 
 5.2.Monitor GitHub Actions Workflow:
