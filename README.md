@@ -338,7 +338,7 @@ git push origin master
 
 3.Also verify if the website homepage was updated successfully.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/e9b2b40d3ae59d7e1132c9b5d0813722fe3931a5/img/Screenshot%202025-03-13%20132038.png)
 
 
 ## Future Enhancements
