@@ -320,7 +320,7 @@ git push origin master
 
 1.Go to GitHub → Actions and check the pipeline logs.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/f6d55afd472a28aa8ff22007749c2b59799ee13c/img/Screenshot%202025-03-13%20131801.png)
 
 
 ![image_alt]()
