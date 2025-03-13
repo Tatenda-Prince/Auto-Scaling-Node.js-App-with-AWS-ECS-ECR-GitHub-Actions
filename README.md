@@ -185,7 +185,7 @@ Great! We’ve successfully confirmed that our ECS has 2 task running instances,
 
 2.Note — Make sure to use the “http://” protocol and not https:// to reach the ALB.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/47ab15c2f7da27210ec77f4f5194f6e184ee2ff3/img/Screenshot%202025-03-13%20125142.png)
 
 
 3.4.Verify the Auto Scaling group if it was successfully created.
