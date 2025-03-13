@@ -54,7 +54,7 @@ This project sets up a highly available, scalable, and automated e-commerce appl
 8.Docker – Containerization
 
 ## Use Case
-You are Cloud Engeiner at Up The Chels Corp,run a e-commerce website and at the end of the they have a black friday sale and as the Cloud Engineer you are tasked with the Automation of the website using CI/CD,ensure that there is zero downtime of the to  the website and the wesite must handle high traffic during surges and goes back to normal after when traffic is not high.
+You are Cloud Engeiner at Up The Chels Corp, they run a e-commerce website and at the end of the they have a black friday sale and as the Cloud Engineer you are tasked with the Automation of the website using CI/CD,ensure that there is zero downtime of the to  the website and the wesite must handle high traffic during surges and goes back to normal after when traffic is not high.
 
 
 ## Prerequisites
