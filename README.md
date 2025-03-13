@@ -157,7 +157,7 @@ The process should now conclude with a message indicating “Apply complete”, 
 Please copy and save the ALB’s DNS URL, which will be required to access the web page from the browser.
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/5503e978e1c15eba149a22b92fc416729d8fba37/img/Screenshot%202025-03-13%20123037.png)
 
 
 
