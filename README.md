@@ -333,7 +333,7 @@ git push origin master
 
 2.Verify ECS Service is running the new task.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/5d2dec9ca60cbe670bdb03dc4fdf592a488e973c/img/Screenshot%202025-03-13%20131940.png)
 
 
 3.Also verify if the website homepage was updated successfully.
