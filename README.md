@@ -297,7 +297,7 @@ The `env`section within the steps that require AWS credentials pulls the values 
 
 4.Add the following secrets:
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/57961d8061726e2ad74ca61e6525684f9706dc73/img/Screenshot%202025-03-13%20162644.png)
 
 
 
