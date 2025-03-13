@@ -149,7 +149,7 @@ terraform apply
 ```
 Terraform will initiate the process of applying all the changes to the infrastructure. Kindly wait for a few seconds for the deployment process to complete.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/d7d6e80e29ced8adcc8cd7c173580ea486044c29/img/Screenshot%202025-03-13%20122620.png)
 
 
 ## Success
