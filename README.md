@@ -1,6 +1,6 @@
 # Scalable & Automated Node.js App Deployment with AWS ECS, Terraform & CI/CD
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/4cb39552838cda7618e8392644c541a2cb7b8436/img/Screenshot%202025-03-13%20192135.png)
 
 
 ## Project Overview
