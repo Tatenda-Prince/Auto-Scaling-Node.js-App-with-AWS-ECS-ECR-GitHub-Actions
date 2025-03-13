@@ -137,7 +137,7 @@ The command should generate a success message, confirming that it is valid, as d
 terraform plan
 ```
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/227e556286883d68fe4a0f066befb28117e5e6a0/img/Screenshot%202025-03-13%20122134.png)
 
 The list of changes that Terraform is anticipated to apply to the infrastructure resources should be displayed. The “+” sign indicates what will be added, while the “-” sign indicates what will be removed.
 
