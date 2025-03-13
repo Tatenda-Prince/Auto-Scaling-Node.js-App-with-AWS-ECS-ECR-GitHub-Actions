@@ -282,6 +282,20 @@ jobs:
 
 ```
 
+4.2.Manage Secrets in GitHub:
+1.Environment Variables: The `env`section within the steps that require AWS credentials pulls the values from the secrets stored in the GitHub repository.
+
+2.Navigate to Your Repository on GitHub
+
+3.Add Secrets `Settings > Secrets and variables > Actions`.
+
+4.Add the following secrets:
+
+![image_alt]()
+
+
+
+
 ## Step 5: Testing the CI/CD Pipeline
 5.1.Push a Code Change to Trigger Deployment on your app homepage.
 
