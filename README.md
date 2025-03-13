@@ -91,13 +91,21 @@ docker tag my-node-app:latest <ECR_URI>:latest
 docker push <ECR_URI>:latest
 ```
 
+![image_alt]()
+
+
 ## Step 2 : Run Terraform workflow to initialize, validate, plan then apply
 
 2.1.Terraform will provision:
+
 1.ECS Cluster, Task Definition, and Service
+
 2.Load Balancer & Target Group
+
 3.ECR Repository for container storage
+
 4.IAM roles for security
+
 5.Auto Scaling for ECS tasks
 
 
