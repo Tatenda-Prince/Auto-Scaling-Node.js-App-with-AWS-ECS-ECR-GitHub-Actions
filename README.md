@@ -179,7 +179,8 @@ Also, navigate to the left pane, scroll down and select Target groups. Select th
 
 Great! We’ve successfully confirmed that our ECS has 2 task running instances, and all of our Target groups’ health statuses are displaying as healthy. Let’s now verify that we can access our ASG’s web servers through our ALB.
 
-3.3.Lets verify the reachability to the website using its URL in browser
+
+## Lets verify the reachability to the website using its URL in browser
 
 1.Open up your desired browser and paste the ALB’s DNS URL in your browser.
 
@@ -188,9 +189,10 @@ Great! We’ve successfully confirmed that our ECS has 2 task running instances,
 ![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/47ab15c2f7da27210ec77f4f5194f6e184ee2ff3/img/Screenshot%202025-03-13%20125142.png)
 
 
+
 3.4.Verify the Auto Scaling group if it was successfully created.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/381a010ad371d2de2212bda7dc4a03f424dea4e3/img/Screenshot%202025-03-13%20142419.png)
 
 
 
