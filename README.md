@@ -174,7 +174,7 @@ Please copy and save the ALB’s DNS URL, which will be required to access the w
 
 Also, navigate to the left pane, scroll down and select Target groups. Select the created Target group, scroll down, then verify that the instances Health status is healthy, as shown below.
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Auto-Scaling-Node.js-App-with-AWS-ECS-ECR-GitHub-Actions/blob/8bef32e630d275bac1b2b60e35fceea1123e9d17/img/Screenshot%202025-03-13%20124548.png)
 
 
 Great! We’ve successfully confirmed that our ECS has 2 task running instances, and all of our Target groups’ health statuses are displaying as healthy. Let’s now verify that we can access our ASG’s web servers through our ALB.
